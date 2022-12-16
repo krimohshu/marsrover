@@ -4,7 +4,6 @@ import lombok.Data;
 import lombok.Getter;
 import org.springframework.stereotype.Component;
 
-@Component
 @Getter
 public class Rover {
     public static final Integer N = 1;
@@ -74,7 +73,19 @@ public class Rover {
     }
 
     private void turnRight() {
-        facing = (facing + 1) >W ? N : facing + 1;
+        facing = (facing + 1) > W ? N : facing + 1;
+    }
+
+    public void setX(Integer x) {
+        this.x = x;
+    }
+
+    public void setY(Integer y) {
+        this.y = y;
+    }
+
+    public void setFacing(Integer facing) {
+        this.facing = facing;
     }
 
     public static void main(String args[]) {
