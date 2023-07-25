@@ -5,6 +5,7 @@ class Derived extends Base
     public void show()
     {
         System.out.println("Derived:test() call");
+        System.out.println();
     }    public void naya()
     {
         System.out.println("Derived:naya() call");
