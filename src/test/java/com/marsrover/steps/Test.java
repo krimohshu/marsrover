@@ -8,5 +8,6 @@ class Main
     {
         Base b =  new Derived();
         b.show();
+        System.out.println();
     }
 }
