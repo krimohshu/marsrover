@@ -37,6 +37,7 @@ public class MarsRoverTestSteps extends AbstractStepDefinition {
     @When("rover process the command {string}")
     public void rover_process_the_command(String command) {
          rover.process(command);
+        System.out.println();
     }
 
 
