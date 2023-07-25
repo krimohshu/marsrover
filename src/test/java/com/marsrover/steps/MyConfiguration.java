@@ -11,5 +11,6 @@ public class MyConfiguration {
     @Scope("cucumber-glue")
     public Rover rover() {
         return new Rover();
+
     }
 }

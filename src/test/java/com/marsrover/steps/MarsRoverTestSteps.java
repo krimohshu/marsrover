@@ -32,6 +32,7 @@ public class MarsRoverTestSteps extends AbstractStepDefinition {
     public void rover_is_initialized(int x_starting, int y_starting) {
        rover.setX(x_starting);
        rover.setY(y_starting);
+        System.out.println();
     }
 
     @When("rover process the command {string}")
