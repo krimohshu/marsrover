@@ -8,6 +8,5 @@ class Main
     {
         Base b =  new Derived();
         b.show();
-        b.naya();
     }
 }
