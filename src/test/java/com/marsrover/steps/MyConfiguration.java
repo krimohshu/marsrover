@@ -10,7 +10,6 @@ public class MyConfiguration {
     @Bean
     @Scope("cucumber-glue")
     public Rover rover() {
-        System.out.println();
         return new Rover();
 
     }
