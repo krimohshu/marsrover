@@ -44,6 +44,7 @@ public class MarsRoverTestSteps extends AbstractStepDefinition {
     public void rover_is_on_the_cordinates(String userInputOfRoverPosition, int xCordinate, int yCcordinate, int facing) {
        if ("GET".equalsIgnoreCase(userInputOfRoverPosition)){
             verifiyRoverPosition( xCordinate,  yCcordinate, facing);
+           System.out.println();
         }
         if ("SET".equalsIgnoreCase(userInputOfRoverPosition)){
             rover.setPosition(xCordinate, yCcordinate ,Rover.N );
